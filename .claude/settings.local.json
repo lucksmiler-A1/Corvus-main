@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(.venv/Scripts/python:*)",
+      "Bash(uv run pytest:*)",
+      "Bash(uv run:*)",
+      "mcp__langchain_docs__SearchDocsByLangChain",
+      "WebSearch",
+      "Bash(pnpm type-check:*)",
+      "mcp__docs-mcp-server__search_docs",
+      "mcp__docs-mcp-server__scrape_docs",
+      "mcp__docs-mcp-server__get_job_info",
+      "mcp__docs-mcp-server__fetch_url",
+      "Bash(git stash pop:*)",
+      "Bash(git add:*)",
+      "Bash(fly deploy:*)",
+      "Bash(fly secrets set:*)",
+      "Bash(uv lock:*)",
+      "Bash(fly apps create:*)",
+      "Bash(fly machines list:*)",
+      "Bash(fly machines destroy:*)",
+      "Bash(pnpm tsc:*)"
+    ]
+  }
+}
